@@ -1,6 +1,6 @@
 # Implementation of Robust Generative Steganography for Image Hiding Using Concatenated Mappings
 
-Please Check out our [paper](https://arxiv.org/abs/2211.12446) for more details before you read the code.  [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11018098)
+Please Check out our paper for more details before you read the code.  [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11018098)
 
 The original framework for this code is based on the brilliant work of [EDICT](https://github.com/salesforce/EDICT)! 
 
@@ -20,7 +20,6 @@ Paste a copy of a suitable [HF Auth Token](https://huggingface.co/docs/hub/secur
 ```
 with open('hf_auth', 'r') as f:
     auth_token = f.readlines()[0].strip()
-    
 ```
 
 Example file at `./hf_auth`
